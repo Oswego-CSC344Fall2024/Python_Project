@@ -5,15 +5,17 @@ Suppose you are a TA for a class. You would like to automatically grade students
 # Grading
 The student assignments are included in the [submissions](submissions) folder named as
 ```
-submission_student_1,
-submission_student_2,
-submission_student_3,
+submission_student_123,
+submission_student_234,
+submission_student_456,
 .....
 ```
+The last 3 digits are student's ID number.
+
 The grading rubic is listed [here](grading_rubic.md).
 
 # Report
-1. create a report_student_i.html (replacing i with the student number) file for each student, which contains (in reasonably formatted, valid HTML):
+1. create a report_student_i.html (replacing i with the student ID number) file for each student, which contains (in reasonably formatted, valid HTML):
    - the name of the student's submission(linked to the file itself)
    - the different integers,decimals,prices,phone numbers and emails in the student's submission (list each category  separately)
    - the total scores of the submission
@@ -22,7 +24,7 @@ The grading rubic is listed [here](grading_rubic.md).
    
 # email the reports
 
-1. Read the students' email addresses from the CSV file. Send student_i.html to the correct student.
+1. Read the students' email addresses from the CSV file [Roster](Roster.csv). Send student_i.html to the correct student.
 2. prompt the user for the email address (professor's email) and send the tar.gz file.
  
 
@@ -31,7 +33,9 @@ Don't hard code students' email addresses in the script. The student email shoul
 
 You must run your project on altair and send mail from your @cs.oswego.edu account. You can send mail from the terminal using the mutt command. A little Googling and looking at the man pages should tell you how to use it. The mutt command should not prompt the user for any input. Sender's email password should not be appeared in your script.
 
-A successful demo will involve sending the email and me receiving it, extracting it, and being able to view your pages/code following the links on your page.
+A successful demo will involve sending the emails.
+As a student in the class, I can receiving the HTML file contains my summary and grade.
+As a professor in the class, I can receive the zipped file, extract it, and am able to view students submissions and reports following the links on your page.
 
 
 # Dev Environment / Useful Resources

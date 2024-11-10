@@ -1,5 +1,4 @@
-# Python Project
-# TA Grading System
+# Python Project -- TA Grading System
 
 Suppose you are a TA for a class. You would like to automatically grade students assignment and send back the feedbacks through e-mails.
 

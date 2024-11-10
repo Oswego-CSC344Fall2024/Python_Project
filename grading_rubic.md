@@ -27,6 +27,7 @@ The following are valid integers:
 The following are not valid integers:
 ```
 1a2b3c
+nine
 3.4
 hello
 2.5.7

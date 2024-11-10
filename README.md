@@ -1,7 +1,7 @@
 # Python Project
 # TA Grading System
 
-Suppose you are a TA for a class CSC1234. You would like to automatically grade students assignment and send back the feedbacks through e-mails.
+Suppose you are a TA for a class. You would like to automatically grade students assignment and send back the feedbacks through e-mails.
 
 # Grading
 The student assignments are included in the [submissions](submissions) folder named as
@@ -13,8 +13,8 @@ submission_student_3,
 ```
 The grading rubic is listed [here](grading_rubic.md).
 
-# report
-1. create a student_i.html (replacing i with the student number) file for each student, which contains (in reasonably formatted, valid HTML):
+# Report
+1. create a report_student_i.html (replacing i with the student number) file for each student, which contains (in reasonably formatted, valid HTML):
    - the name of the student's submission(linked to the file itself)
    - the different integers,decimals,prices,phone numbers and emails in the student's submission (list each category  separately)
    - the total scores of the submission
@@ -30,7 +30,7 @@ The grading rubic is listed [here](grading_rubic.md).
 # Important Note
 Don't hard code students' email addresses in the script. The student email should be read from the roster.
 
-You must run your project on altair and send mail from your @cs.oswego.edu account. You can send mail from the terminal using the mutt command. A little Googling and looking at the man pages should tell you how to use it. The mutt command should not prompt the user for any input. Your email password should not be appeared in your script.
+You must run your project on altair and send mail from your @cs.oswego.edu account. You can send mail from the terminal using the mutt command. A little Googling and looking at the man pages should tell you how to use it. The mutt command should not prompt the user for any input. Sender's email password should not be appeared in your script.
 
 A successful demo will involve sending the email and me receiving it, extracting it, and being able to view your pages/code following the links on your page.
 
